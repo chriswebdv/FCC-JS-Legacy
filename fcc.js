@@ -309,7 +309,7 @@ function cc(card) {
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-// Make an object Cat
+// Make an object Dog
 
 const myDog = {
   // Only change code below this line
@@ -320,3 +320,16 @@ const myDog = {
 
   // Only change code above this line
 };
+
+// Prarctice dot notation
+
+// Setup
+const testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
