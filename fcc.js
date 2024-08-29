@@ -308,3 +308,15 @@ function cc(card) {
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// Make an object Cat
+
+const myDog = {
+  // Only change code below this line
+  name: "Misha",
+  legs: 4,
+  tails: 1,
+  friends: ["me", "other cats"]
+
+  // Only change code above this line
+};
