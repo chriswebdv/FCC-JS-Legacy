@@ -431,3 +431,31 @@ function checkObj(obj, checkProp) {
   return "Change Me!";
   // Only change code above this line
 }
+
+// Add new object to and array
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+let newAlbum = {
+  "artist": "Run DMC",
+    "title": "My Adidas",
+    "release_year": 1986,
+    "formats": [
+      "CD",
+      "MP3",
+      "LP"
+    ],
+}
+
+myMusic.push(newAlbum);
