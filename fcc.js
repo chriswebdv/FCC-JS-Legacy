@@ -521,4 +521,15 @@ for (let i = 1; i < 6; i++) {
   myArray.push(i);
 }
 
+// Use a for loop to push all the odd number into an array
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
+
 
