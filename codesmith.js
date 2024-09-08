@@ -16,3 +16,12 @@ function addS(str) {
 // Uncomment these to check your work!
 console.log(typeof addS); // should log: 'function'
 console.log(addS('cat')); // should log: 'cats'
+
+// Create function that concats "Hi," to a string argument and returns it.
+function sayHello(str) {
+  return "Hi, " + str
+}
+
+// Uncomment these to check your work!
+console.log(sayHello('Mary')); // should log: 'Hi, Mary'
+console.log(sayHello('Haley')); // should log: 'Hi, Haley'
