@@ -623,4 +623,18 @@ const contacts = [
   },
 ];
 //
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+  for (let i = 0; i < contacts.length; i++) {
+    if (contacts.firstName !== name) {
+      return "No such contact";
+    } else if (!contacts[i].hasOwnProperty(prop)) {
+      return "No such property";
+    } else {
+      return prop;
+    }
 
+  // Only change code above this line
+}
+
+lookUpProfile("Akira", "likes");
